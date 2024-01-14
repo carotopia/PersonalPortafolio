@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, rgb(230, 230, 230), rgb(139, 150, 223), rgb(224, 222, 228));
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -27,3 +27,42 @@
     border-radius: 50%;
   }
   
+  #Home {
+    background-color: white;
+}
+
+#title {
+    min-height: 600px; /* Adjust the value according to your preference */
+
+}
+
+#title h1 {
+    color: white !important;
+
+}
+
+#title p {
+    color: white !important;
+}
+
+.image-rounded{
+    border-radius: 50%;
+    width: 450px;
+    height: 430px;
+}
+
+#About {
+    background-color: white;
+
+}
+
+#Projects{
+    text-align: justify;
+
+    
+}
+
+#Projects h1{
+    text-align: left;
+    
+}
